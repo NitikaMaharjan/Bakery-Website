@@ -135,6 +135,13 @@
         </div>
     </body>
     <script>
+        function confirmit() {
+            var ans = confirm("Are you sure you want to log out?");
+            if (ans) {
+                window.location.href = "/LocalBakehouse/php/logout.php";
+            }
+        }
+
         function filterCategory(category, event) {
             const buttons = document.querySelectorAll('.cat-buttons button');
             buttons.forEach(button => button.classList.remove('active')); 
