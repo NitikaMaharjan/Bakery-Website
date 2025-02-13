@@ -1,0 +1,425 @@
+body {
+    margin: 0;
+    line-height: 1.5;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    background-color: #693E1D;
+    height: 64px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+.logo-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 61%;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img {
+    height: 30px;
+    width: 40px;
+    margin-right: 16px;
+}
+.logo p {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: white;
+    padding-top: 4px;
+    margin:0px;
+}
+.nav-links {
+    display: flex;
+    justify-content: center;
+}
+.nav-links a {
+    margin-right: 24px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.home-link{
+    border-bottom: 2px solid white;
+}
+.product-link:hover, .gallery-link:hover{
+    border-bottom: 2px solid white;
+}
+.social {
+    display: flex;
+    align-items: center;
+}
+#ig{
+    margin-right: 6px;
+}
+#ig, #fb{
+    padding:6px;
+}
+#ig:hover, #fb:hover{
+    background-color:rgba(0, 0, 0, 0.222);
+    border-radius: 25px;
+}
+.contents{
+    padding-top: 80px;
+}
+.contents h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: #351e0b;
+}
+.frame1 {
+    background-image: url('/LocalBakehouse/images/bakery_image/29.png');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    height: 360px;
+    border-radius: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.view-products-btn {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #351e0b;
+    background-color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.3s;
+}
+.view-products-btn:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+    transform: scale(1.02);
+}
+.frame2 {
+    background-color: #f0ebdf;
+    border-radius: 12px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    height: auto;
+    padding: 30px 60px;
+    display: flex;
+}
+.our-story{
+    margin-right: 80px;
+    align-items: center;
+}
+.our-story h2 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color:#351e0b;
+}
+.our-story p {
+    font-weight: 500;
+    font-size: 16px;
+    color:#693E1D;
+    line-height: 1.5;
+}
+.bakery-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    align-items: center;
+    cursor:pointer;
+}
+.bakery-images img {
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.3s;
+}
+.bakery-images img:hover{
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.5);
+    transform: scale(1.02);
+}
+.frame3 {
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+.frame3 h2 {
+    color:#351e0b;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.cat-buttons {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background-color: #f0ebdf;
+    padding: 6px 12px ;
+    border-radius: 200px;
+    margin-bottom: 40px;
+}
+.cat-buttons button{
+    border: none;
+    background-color: transparent;
+    color:#693e1d;
+    padding: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 200px;
+    cursor: pointer;
+}
+.cat-buttons button:hover{
+    background-color:#693e1d27;
+    transform: scale(1.05);
+}
+.cat-buttons button.active {
+    background-color: #693E1D; 
+    color: white;             
+}
+#product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}
+.product-item {
+    width: calc(20% - 20px); 
+    box-sizing: border-box;
+    padding: 12px;
+    background-color: white; 
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor:pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.product-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+.product-item p{
+    text-align: left;
+    line-height: 2;
+    font-weight: 500;
+    color:#8d5c3f;
+    margin: 0px;
+    padding: 0px;
+}
+#p-name{
+    color:#351e0b;
+}
+.product-item img {
+    height:200px;
+    width: 200px;
+    margin: 0px;
+    padding: 0px;
+}
+.view-all-products-btn{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background-color: #693E1D;
+    border: 1px solid #693E1D;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 40px;
+    margin-left: 520px;
+    margin-bottom: 40px;
+}
+.view-all-products-btn:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+    transform: scale(1.02);
+}
+.frame4 {
+    background-color: #f0ebdf;
+    border-radius: 12px;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    box-sizing: border-box;
+    height: 440px;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:150px;
+    margin-bottom: 40px;
+}
+.contact-info h2{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color:#351e0b;
+}
+.contact-info img{
+    height:20px;
+    width:20px;
+}
+.location, .contact, .email{
+    display:flex;
+    align-items: center;
+}
+.contact-info p{
+    font-weight: 500;
+    font-size: 16px;
+    color:#351e0b;
+    line-height: 1.5;
+}
+.contact-btn{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    background-color: #693E1D;
+    border: 1px solid #693E1D;
+    border-radius: 6px;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+.contact-btn:hover{
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+footer {
+    background-color:#693E1D;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.footer-content {
+    display: flex;
+    gap:10px;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+.footer-logo img {
+    height:20px;
+    width:30px;
+    margin-right: 10px;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: auto;
+    padding-top: 35px;
+}
+.modal-content {
+    margin: auto;
+    width: 30%;
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    position: relative;
+}
+.close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: #351e0b;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 4px 12px;
+}
+.close:hover {
+    background-color: rgba(0, 0, 0, 0.111);
+    border-radius: 25px;
+}
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modal-image img {
+    height: 350px;
+    width: 350px;
+}
+.modal-title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #351e0b;
+    width: 100%;
+    margin-bottom:6px;
+}
+.modal-description {
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    margin-bottom: 12px;
+    color: #8d5c3f;
+}
+.modal-price {
+    font-size: 18px;
+    font-weight: 500;
+    color: #8d5c3f;
+    width: 100%;
+}
+#no-info{
+    font-weight: 500;
+    color:#693E1D;
+    margin:0px;
+    text-align: center;
+}
+
+

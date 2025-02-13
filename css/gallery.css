@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    line-height: 1.5;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    background-color: #693E1D;
+    height: 64px;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+.logo-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 61%;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img {
+    height: 30px;
+    width: 40px;
+    margin-right: 16px;
+}
+.logo p {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: white;
+    padding-top: 4px;
+    margin:0px;
+}
+.nav-links {
+    display: flex;
+    justify-content: center;
+}
+.nav-links a {
+    margin-right: 24px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.gallery-link{
+    border-bottom: 2px solid white;
+}
+.product-link:hover, .home-link:hover{
+    border-bottom: 2px solid white;
+}
+.social {
+    display: flex;
+    align-items: center;
+}
+#ig{
+    margin-right: 6px;
+}
+#ig, #fb{
+    padding:6px;
+}
+#ig:hover, #fb:hover{
+    background-color:rgba(0, 0, 0, 0.222);
+    border-radius: 25px;
+}
+.contents{
+    text-align: center;
+    padding-top: 64px;
+    margin-bottom: 20px;
+}
+.contents h1{
+    color:#351e0b;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.buttons{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background-color: #f0ebdf;
+    padding: 6px 12px ;
+    border-radius: 200px;
+    margin-bottom: 40px;
+}
+.active-button {
+    border: none;
+    background-color: #693E1D; 
+    color: white; 
+    padding: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 200px;
+    cursor: pointer;
+}
+.inactive-button {
+    border: none;
+    background-color: transparent; 
+    color:#693e1d;
+    padding: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 200px;
+    cursor: pointer;
+}
+.inactive-button:hover{
+    background-color:#693e1d27;
+    transform: scale(1.05);
+}
+#bakeryImages img, #productImages img{
+    height: 320px;
+    width: 320px;
+    border-radius: 16px;
+    margin:24px;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+#bakeryImages img:hover, #productImages img:hover{
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+footer {
+    background-color:#693E1D;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.footer-content {
+    display: flex;
+    gap:10px;
+    justify-content: space-between;
+    align-items: center;
+    color:white;
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+}
+.footer-logo img {
+    height:20px;
+    width:30px;
+    margin-right: 10px;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: auto;
+    padding-top: 35px;
+}
+.modal-content {
+    margin: auto;
+    width: 30%;
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    position: relative;
+}
+.close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: #351e0b;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 4px 12px;
+}
+.close:hover {
+    background-color: rgba(0, 0, 0, 0.111);
+    border-radius: 25px;
+}
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.modal-image img {
+    height: 350px;
+    width: 350px;
+    border-radius: 12px;
+}
+.modal-title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #351e0b;
+    width: 100%;
+    margin-bottom:6px;
+}
+.modal-description {
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    margin-bottom: 12px;
+    color: #8d5c3f;
+}
+.modal-price {
+    font-size: 18px;
+    font-weight: 500;
+    color: #8d5c3f;
+    width: 100%;
+}
+#no-info{
+    font-weight: 500;
+    color:#693E1D;
+    margin:0px;
+    text-align: center;
+}
