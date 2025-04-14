@@ -82,7 +82,7 @@ body {
     color: #351e0b;
 }
 .frame1 {
-    background-image: url('/LocalBakehouse/images/bakery_image/29.png');
+    background-image: url('/LocalBakehouse/background.png');
     background-size: cover; 
     background-position: center;
     background-repeat: no-repeat; 
