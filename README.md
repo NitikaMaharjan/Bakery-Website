@@ -4,7 +4,6 @@
 
 The **Bakery Management System** is a content management website designed to organize and manage bakery-related content such as general information, images, and product listings. Developed using the **Waterfall model**, the system integrates front-end technologies like HTML, CSS, and JavaScript, along with PHP and MySQL for the back-end. While the project is complete, future improvements and enhancements are possible.
 
----
 
 ## Table of Contents
 
@@ -19,9 +18,6 @@ The **Bakery Management System** is a content management website designed to org
 - [Screenshots](#screenshots)
 - [Demo Video](#demo-video)
 - [Conclusion](#conclusion)
-- [Contact Me](#contact-me)
-
----
 
 ## Problem Statement
 
@@ -34,13 +30,11 @@ The **Bakery Management System** is a content management website designed to org
 - **Difficulty in Managing Visual Content**  
   Without an easy system to upload and manage images, bakeries face limitations in showcasing their ambiance and offerings online.
 
----
 
 ## Objective
 
 To develop a user-friendly bakery management system that allows admins to efficiently manage bakery information, product details, and images through a centralized dashboard.
 
----
 
 ## Scope
 
@@ -53,7 +47,6 @@ To develop a user-friendly bakery management system that allows admins to effici
 - **Basic Functionality Implementation**  
   CRUD operations (Create, Read, Update, Delete) for bakery and product information.
 
----
 
 ## Limitations
 
@@ -66,7 +59,6 @@ To develop a user-friendly bakery management system that allows admins to effici
 - **Limited Scalability**  
   Built to manage a single bakery; not optimized for multi-branch use.
 
----
 
 ## Use Case Diagram
 
@@ -81,7 +73,6 @@ To develop a user-friendly bakery management system that allows admins to effici
 - **Manage Product Info** – Add, edit, or delete products.  
 - **Logout** – Securely log out of the dashboard.
 
----
 
 ## Technologies Used
 
@@ -94,7 +85,6 @@ To develop a user-friendly bakery management system that allows admins to effici
 - PHP
 - MySQL
 
----
 
 ## Screenshots
 
@@ -113,7 +103,6 @@ Below are some screenshots of the website interface and admin dashboard:
 <img src="img/6.png" ><br/>
 <img src="img/7.png" ><br/>
 
----
 
 ## Demo Video
 
@@ -123,13 +112,11 @@ Watch a short demo of the Bakery Management System in action by clicking the ima
   <img src="img/1.png" alt="Demo Video" width="600"/>
 </a>
 
----
 
 ## Conclusion
 
 The Bakery Management System successfully addresses the challenges of managing bakery information, visuals, and products. Its clean UI and centralized dashboard make it easy for admins to maintain content without requiring technical skills.
 
----
 
 ## Contact Me
 
