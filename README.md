@@ -88,25 +88,30 @@ To develop a user-friendly bakery management system that allows admins to effici
 
 ## Screenshots
 
-Below are some screenshots of the website interface and admin dashboard:
+> Below are some screenshots of the website interface and admin dashboard:
 
 ### Home Page
 
 <img src="img/1.png" ><br/>
+
 <img src="img/2.png" ><br/>
+
 <img src="img/3.png" ><br/>
 
 ### Admin Dashboard
 
 <img src="img/4.png" ><br/>
+
 <img src="img/5.png" ><br/>
+
 <img src="img/6.png" ><br/>
+
 <img src="img/7.png" ><br/>
 
 
 ## Demo Video
 
-Watch a short demo of the Bakery Management System in action by clicking the image below:
+> Watch the working demo of Bakery Management System by clicking the image below:
 
 <a href="https://drive.google.com/file/d/125Dizj9IPp4m_m6OlJPbfXdj0jZrHoOT/view?usp=drive_link" target="_blank">
   <img src="img/1.png" alt="Demo Video" width="600"/>
